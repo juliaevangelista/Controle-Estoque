@@ -1,0 +1,88 @@
+/*Aula 4, 5 e 6  - site designer
+*/
+#box{
+	width: 800px;
+	margin: 0 auto;
+}
+#header{
+	height:100px; 
+	margin-bottom: 5px;
+}
+#header_logo{
+	margin: 1px 2px 10px 50px;
+	float: left;
+}
+#menu{
+	width: 250px;
+	float: left;
+	padding: 5px; 
+	background: #f4f4f4; 
+	border: 1px solid #d6d6d6;
+}
+#menu h1{
+	width: 240px;
+	float: left;
+	padding: 5px;
+	font: 16px Georgia, "Times New Roman",Times, serif;
+	font-weight: bold;
+	background: #999;
+	color: #333;
+}
+#menu ul{
+	margin:5px 0;
+	padding: 0;
+	list-style: none;
+}
+#menu ul li{
+	margin: 1px 0; 
+	float: left;
+	font: 16px "Trebecher MS", Arial, Helvetica, sans-serif;
+}
+#menu ul li a{
+	width: 237px;
+	padding: 2px 5px;
+	text-decoration: none;
+	color: #333;
+	float: left;
+	border-left: 3px solid #ccc;
+
+}
+#menu ul li a:hover{
+	background: #ccc;
+	border-left: 3px solid #999;
+}
+#conteudo{
+	width:520px;
+	padding:5px;
+	margin: 0 0 0 5px;
+	background: #f4f4f4;
+	float: right;
+	border:1px solid #d6d6d6;
+}
+#conteudo h1{
+	font: 18px "Trebecher MS", Arial, Helvetica,sans-serif;
+	text-transform: uppercase;
+	color: #069;
+	border-bottom: 2px solid #069;
+}
+
+#footer{
+	width: 798px;
+	margin: 5px auto;
+	height: 80px;
+	background: #f4f4f4;
+	border:1px solid #d6d6d6;
+
+}
+#footer_txt{
+	float: left;
+	font: 18px "Trebecher MS", Arial, Helvetica,sans-serif;
+	font-weight: bold;
+	text-shadow: 1px 1px 2px #666;
+	color: #333;
+	text-align: center;
+	margin: 20px;
+}
+#clear{
+	clear: both;
+}
